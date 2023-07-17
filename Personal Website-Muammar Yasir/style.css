@@ -1,0 +1,193 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.navigation {
+	background-color: #ff7f00;
+	width: 100%;
+	height: 70px;
+	color: black;
+	position: fixed;
+}
+
+
+.logo {
+ float: left;	
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-left: 30px;
+}
+
+
+.menu {
+	margin-left: 800px;
+	padding-top: 25px;
+}
+
+.menu ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 50px;
+}
+
+
+.menu ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+
+.menu ul li a:hover {
+	color: lightgoldenrodyellow;
+	font-style: italic;
+}
+
+.banner {
+	background-color: #75b84f;
+	height: 700px;
+	text-align: center;
+	color: black;
+
+}
+
+.banner img {
+	border-radius: 500px;
+	height: 150px;
+	width: 150px;
+	border: 4px solid black;
+	margin-top: 125px;
+
+}
+
+.banner h1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.banner button {
+	margin-top: 60px;
+	padding: 10px;
+	width: 400px;
+	border-radius: 50px;
+	border: none;
+}
+
+.banner button:hover {
+	background-color: #e1eca5;
+	border: 3px solid black;
+	color: black;
+}
+
+h1 span:before {
+	content: '';
+	animation: gerak infinite 10s ease;
+	transform: translateY(-50%);
+	color: lightyellow;
+	font-size: 50px;
+}
+
+@keyframes gerak {
+	0% {
+		content: 'Welcome To My Personal Blog';
+	}
+	50% {
+		content: 'My Name is Ammar';
+	}
+	100% {
+		content: 'Thank You For Coming Here!';
+	}
+}
+
+.box-education {
+	text-align: center;
+	color: #414242;
+	margin-top: 30px;
+	align-content: center;
+}
+
+.box-left, .box-center, .box-right {
+	width: 300px;
+	height: 320px;
+	background-color: #FFBF00;
+	text-align: center;
+	padding: 50px 50px;
+	padding-top: 40px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin: 70px 25px 25px 76px;
+	border-radius: 10px;
+	float: left;
+ }
+
+.box-left:hover, .box-center:hover, .box-right:hover {
+	background-color:  #D81F26  ;
+	color: white;
+
+}
+
+.box-education h3,p{
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding: 0px 20px;
+
+}
+
+.box-education {
+	height: 600px;
+	background-color: #F4E30D;
+}
+
+.box-softskill {
+	height: 670px;
+	background-color: #62BD69;
+	text-align: center;
+	color:  #02075d;
+	margin-top: 30px;
+	align-content: center;
+}
+
+.kotak-kiri, .kotak-tengah, .kotak-kanan {
+	width: 300px;
+	height: 400px;
+	background-color: #00FFFF;
+	text-align: center;
+	padding: 50px 50px;
+	padding-top: 40px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin: 70px 25px 25px 76px;
+	border-radius: 10px;
+	float: left;
+ }
+
+.kotak-kiri:hover, .kotak-tengah:hover, .kotak-kanan:hover {
+	background-color:  #C7EA46;
+	color: black;
+}
+
+.box-contact {
+	text-align: center;
+	color: #414242;
+	margin-top: 30px;
+	align-content: center;
+	margin-bottom: 25px;
+}
+
+.boksu-mannaka img{
+	width: 100px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+.footer {
+	background-color: darkgrey;
+	width: 100%;
+	height: 45px;
+	color: white;
+	padding: 3px;
+	margin: 50px auto 0px;
+	text-align: center;
+}
